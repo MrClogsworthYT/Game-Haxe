@@ -1,20 +1,15 @@
-# GameJolt FNF Integration
+# Game Haxe
+Game Haxe is supposed to add gamejolt support to any Haxeflixel (and potentially other game engine) project!
 
-## This project is designed to be used with **Friday Night Funkin**. This allows you to add trohies in your GameJolt gamepage and award them to the user along with adding scores to leaderboard tables!
+## This allows you to add trohies in your GameJolt gamepage and award them to the user along with adding scores to leaderboard tables!
 
 ### Included in the repo is the API to add trophies and the state (GameJoltLogin) to sign the user in.
 
-### Have any issues? Report them to the repo via <a href="https://github.com/TentaRJ/GameJolt-FNF-Integration/issues">Github Issues</a>!
-
-### -tenta
-
-# PLANS:
-
-### <a href="https://github.com/TentaRJ/GameJolt-FNF-Integration/projects/1">Github Project link</a>
+### Have any issues? Report them to the repo via the issues tab!
 
 # REQUIREMENTS:
 
-I will be editing the API for this, meaning you have to download my custom haxelib library, <a href="https://github.com/TentaRJ/tentools">tentools</a>. 
+i will be editing the API for this, meaning you have to download tenta's custom haxelib library, <a href="https://github.com/TentaRJ/tentools">tentools</a>. 
 
 You also need to download and rebuild <a href="https://github.com/haya3218/systools">Haya's version of systools</a>.
 
@@ -25,7 +20,7 @@ haxelib git systools https://github.com/haya3218/systools
 haxelib run lime rebuild systools [windows, mac, linux]
 ```
 
-If you are going to be releasing the source code of a mod with this integration, you need to place a few things into `Project.xml`.
+you need to place a few things into `Project.xml`.
 ### Place these into `Project.xml`:
 ```xml
 <haxelib name="tentools" />
@@ -146,8 +141,3 @@ FlxG.switchState(new GameJoltLogin());
 > `tableID:Int` -> ID of the table.<br>
 > Values returned -> `score, sort, user_id, user, extra_data, stored, guest, success`
 
-# CREDITS:
-
-- <a href = "https://github.com/brightfyregit">BrightFyre</a> - Testing and UI design
-- <a href ="https://github.com/haya3218">Haya</a> - Systools fork
-- <a href = "https://github.com/firubii">Firubii</a> - Toast system
