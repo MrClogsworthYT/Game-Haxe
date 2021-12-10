@@ -326,7 +326,7 @@ class GameJoltInfo extends FlxSubState
     /**
      * Variable to change which state to go to by hitting ESCAPE or the CONTINUE buttons.
      */
-    public static var changeState:FlxUIState = new MainMenuState();
+    public static var changeState:FlxUIState = new(); // add the state you want the user to go to if they hit coninue or escape if you want the user to a diffrent state if they click either of what i told you use #if hit escape or smth
     /**
     * Inline variable to change the font for the GameJolt API elements.
     * @param font You can change the font by doing **Paths.font([Name of your font file])** or by listing your file path.
