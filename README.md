@@ -78,16 +78,16 @@ TYSM Firubii for your help!
 import GameJolt.GameJoltAPI;
 ```
 
-## These commands **must** be ran before starting the API. Place these in `TitleState.hx`:
+## These commands **must** be ran before starting the API. Place these!:
 
 ```hx
 GameJoltAPI.connect();
 GameJoltAPI.authDaUser(FlxG.save.data.gjUser, FlxG.save.data.gjToken);
 ```
 
-### Username and Token are grabbed from the default `FlxG.save` file. This file can be changed in `TitleState.hx`.
+### Username and Token are grabbed from the default `FlxG.save` file.
 
-### Exiting the login menu will throw you back to Main Menu State. You can change this in the GameJoltLogin class inside GameJolt.hx.
+### Exiting the login menu will throw you back. You can change this in the GameJoltLogin class inside GameJolt.hx.
 
 ### The session will automatically start on login and will be pinged every 30 seconds. If it isn't pinged within 120 seconds, the session automatically ends from GameJolt's side.
 
