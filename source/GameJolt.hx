@@ -349,9 +349,9 @@ class GameJoltInfo extends FlxSubState
     /* Other things that shouldn't be messed with are below this line! */
 
     /**
-    * GameJolt + FNF version.
+    * game haxe!
     */
-    public static var version:String = "1.1";
+    public static var version:String = "0.0.1";
     /**
      * Random quotes I got from other people. Nothing more, nothing less. Just for funny.
      */
