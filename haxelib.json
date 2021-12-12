@@ -2,9 +2,9 @@
   "name": "GameHaxe",
   "url" : "https://github.com/MrClogsworthYT/Game-haxe",
   "license": "MIT",
-  "tags": ["account","game","data","Gamejolt"],
-  "description": "an epic haxelib for haxe projects that makes account support on gamejolt",
-  "version": "0.0.1",
+  "tags": ["account","game","data","Gamejolt", "api"],
+  "description": "an epic haxelib for haxe projects that makes account support",
+  "version": "0.0.2",
   "releasenote": "none",
   "contributors": ["MrClogsworthYT"],
   "dependencies": {}
