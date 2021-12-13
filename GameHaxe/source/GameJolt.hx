@@ -1,5 +1,4 @@
 /*
-REQUIREMENTS:
 
 I will be editing the API for this, meaning you have to download a git:
 haxelib git tentools https://github.com/TentaRJ/tentools.git
