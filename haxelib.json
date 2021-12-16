@@ -4,8 +4,8 @@
   "license": "MIT",
   "tags": ["account","game","data","Gamejolt", "api"],
   "description": "an epic haxelib for haxe projects that makes account support",
-  "version": "0.0.2",
-  "releasenote": "none",
+  "version": "0.0.3",
+  "releasenote": "remove fnf lol",
   "contributors": ["MrClogsworthYT"],
   "dependencies": {}
 }
