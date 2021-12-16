@@ -410,14 +410,14 @@ class GameJoltLogin extends MusicBeatSubstate
 
         if(!login)
             {
-                FlxG.sound.playMusic(Paths.music('freakyMenu'),0);
+            //    FlxG.sound.playMusic(Paths.music('freakyMenu'),0);
                 FlxG.sound.music.fadeIn(2, 0, 0.85);
             }
 
         trace(GJApi.initialized);
         FlxG.mouse.visible = true;
 
-        Conductor.changeBPM(102);
+      //  Conductor.changeBPM(102);
 
        /* var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image(''));
 		bg.setGraphicSize(FlxG.width);
