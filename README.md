@@ -7,6 +7,9 @@ Game Haxe is supposed to add gamejolt support to any Haxeflixel (and potentially
 
 ### Have any issues? Report them to the repo via the issues tab!
 
+# wanna contribute?
+make sure you read [this](/CONTRIBUTING.md)
+
 # REQUIREMENTS:
 
 i will be editing the API for this, meaning you have to download tenta's custom haxelib library, <a href="https://github.com/TentaRJ/tentools">tentools</a>. 
