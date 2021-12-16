@@ -337,7 +337,7 @@ class GameJoltInfo extends FlxSubState
     * 
     * Don't make it a NULL variable. Worst mistake of my life.
     */
-    public static var fontPath:String = "assets/fonts/vcr.ttf";
+    public static var fontPath:String = ""; // Put you're font herr
     /**
     * Image to show for notifications. Leave NULL for no image, it's all good :)
     * 
@@ -419,14 +419,14 @@ class GameJoltLogin extends MusicBeatSubstate
 
         Conductor.changeBPM(102);
 
-        var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat', 'preload'));
+       /* var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image(''));
 		bg.setGraphicSize(FlxG.width);
 		bg.antialiasing = true;
 		bg.updateHitbox();
 		bg.screenCenter();
 		bg.scrollFactor.set();
 		bg.alpha = 0.25;
-		add(bg);
+		add(bg);*/
 
 
         gamejoltText1 = new FlxText(0, 25, 0, "Gamejolt", 16);
@@ -441,7 +441,7 @@ class GameJoltLogin extends MusicBeatSubstate
         gamejoltText2.color = FlxColor.fromRGB(84,155,149);
         add(gamejoltText2);
 
-        funnyText = new FlxText(5, FlxG.height - 40, 0, GameJoltInfo.textArray[FlxG.random.int(0, GameJoltInfo.textArray.length - 1)]+ " -Tenta", 12);
+        funnyText = new FlxText(5, FlxG.height - 40, 0, GameJoltInfo.textArray[FlxG.random.int(0, GameJoltInfo.textArray.length - 1)]+ " -amosus", 12);
         add(funnyText);
 
         versionText = new FlxText(5, FlxG.height - 22, 0, "Game ID: " + GJKeys.id + " API: " + GameJoltInfo.version, 12);
