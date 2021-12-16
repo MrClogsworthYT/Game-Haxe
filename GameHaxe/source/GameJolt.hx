@@ -394,7 +394,7 @@ class GameJoltLogin extends MusicBeatSubstate
     // var trophy:FlxBar;
     // var trophyText:FlxText;
     // var missTrophyText:FlxText;
-    public static var charBop:FlxSprite;
+    // public static var charBop:FlxSprite;
     // var icon:FlxSprite;
     var baseX:Int = -190;
     var versionText:FlxText;
@@ -514,7 +514,7 @@ class GameJoltLogin extends MusicBeatSubstate
         cancelBox = new FlxButton(0,625, "Not Right Now", function()
         {
             FlxG.save.flush();
-            FlxG.sound.play(Paths.sound('confirmMenu'), 0.7, false, null, true, function(){
+            // FlxG.sound.play(Paths.sound('confirmMenu'), 0.7, false, null, true, function(){
                 FlxG.save.flush();
                 FlxG.sound.music.stop();
                 FlxG.switchState(GameJoltInfo.changeState);
@@ -589,13 +589,13 @@ class GameJoltLogin extends MusicBeatSubstate
             helpBox.color = (GameJoltAPI.leaderboardToggle ? FlxColor.GREEN : FlxColor.RED);
         }
 
-        if (FlxG.sound.music != null)
-            Conductor.songPosition = FlxG.sound.music.time;
+    //    if (FlxG.sound.music != null)
+        //    Conductor.songPosition = FlxG.sound.music.time;
 
-        if (!FlxG.sound.music.playing)
-        {
-            FlxG.sound.playMusic(Paths.music('freakyMenu'));
-        }
+      //  if (!FlxG.sound.music.playing)
+     //   {
+            //FlxG.sound.playMusic(Paths.music('freakyMenu'));
+       // }
 
         if (FlxG.keys.justPressed.ESCAPE)
         {
@@ -656,7 +656,7 @@ class GJToastManager extends Sprite
      */
     public function createToast(iconPath:String, title:String, description:String, ?sound:Bool = false):Void
     {
-        if (sound)FlxG.sound.play(Paths.sound('confirmMenu')); 
+       // if (sound)FlxG.sound.play(Paths.sound('confirmMenu')); 
         
         var toast = new Toast(iconPath, title, description);
         addChild(toast);
