@@ -337,7 +337,7 @@ class GameJoltInfo extends FlxSubState
     * 
     * Don't make it a NULL variable. Worst mistake of my life.
     */
-    public static var fontPath:String = ""; // Put you're font herr
+    public static var fontPath:String = ""; // Put you're font path here
     /**
     * Image to show for notifications. Leave NULL for no image, it's all good :)
     * 
@@ -350,7 +350,7 @@ class GameJoltInfo extends FlxSubState
     /**
     * game haxe!
     */
-    public static var version:String = "0.0.1";
+    public static var version:String = "0.0.3";
     /**
      * Random quotes I got from other people. Nothing more, nothing less. Just for funny.
      */
@@ -516,7 +516,7 @@ class GameJoltLogin extends MusicBeatSubstate
             FlxG.save.flush();
             // FlxG.sound.play(Paths.sound('confirmMenu'), 0.7, false, null, true, function(){
                 FlxG.save.flush();
-                FlxG.sound.music.stop();
+              //  FlxG.sound.music.stop();
                 FlxG.switchState(GameJoltInfo.changeState);
             });
         });
@@ -557,7 +557,7 @@ class GameJoltLogin extends MusicBeatSubstate
 
         if(GameJoltInfo.font != null)
         {       
-            // Stupid block of code >:(
+            // amosus-san is stupid -amosus-san
             gamejoltText1.font = GameJoltInfo.font;
             gamejoltText2.font = GameJoltInfo.font;
             funnyText.font = GameJoltInfo.font;
