@@ -34,6 +34,8 @@ you need to place a few things into `Project.xml`.
 ### Once that is all done, you can place `GameJolt.hx` into the `source/` folder of your project!
 
 # SETUP (GAMEJOLT):
+add `import GameJolt;` at the top of `Main.hx`
+
 To add your game's keys, you will need to make a file in the source folder named GJKeys.hx (filepath: ../source/GJKeys.hx).
 <br>
 In this file, you will need to add the GJKeys class with two public static variables, `id:Int` and `key:String`.
