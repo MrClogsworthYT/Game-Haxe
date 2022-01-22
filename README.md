@@ -12,23 +12,20 @@ make sure you read [this](/CONTRIBUTING.md)
 
 # REQUIREMENTS:
 
-i will be editing the API for this, meaning you have to download tenta's custom haxelib library, <a href="https://github.com/TentaRJ/tentools">tentools</a>. 
-
-You also need to download and rebuild <a href="https://github.com/haya3218/systools">Haya's version of systools</a>.
+HaxeFlixel along with the addons.
 
 ### Run these in the terminal:
 ```
-haxelib git tentools https://github.com/TentaRJ/tentools.git
-haxelib git systools https://github.com/haya3218/systools
-haxelib run lime rebuild systools [windows, mac, linux]
+haxelib install flixel
+haxelib install flixel-addons
+haxelib git gamehaxe https://github.com/MrClogsworthYT/Game-Haxe
 ```
 
 you need to place a few things into `Project.xml`.
 ### Place these into `Project.xml`:
 ```xml
-<haxelib name="tentools" />
-<haxelib name="systools" />
-<ndll name="systools" haxelib="systools" />
+<haxelib name="flixel" />
+<haxelib name="flixel-addons" />
 ```
 
 ### Once that is all done, you can place `GameJolt.hx` into the `source/` folder of your project!
