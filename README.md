@@ -12,6 +12,14 @@ make sure you read [this](/CONTRIBUTING.md)
 
 # REQUIREMENTS:
 
+<!--    
+  _   _               ______ _ _          _
+ | | | |              |  ___| (_)        | |
+ | |_| | __ ___  _____| |__ | |___  _____| |
+ |  _  |/ _` \ \/ / _ \ ___|| | \ \/ / _ \ |
+ | | | | (_| |>  <  __/ |   | | |>  <  __/ |
+ |_| |_|\ __,/_/\_\___|_|   |_|_/_/\_\___|_|
+ -->
 HaxeFlixel along with the addons.
 
 ### Run these in the terminal:
