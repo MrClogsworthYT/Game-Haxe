@@ -5,6 +5,7 @@
   "tags": ["account","game","data","Gamejolt", "api"],
   "description": "a haxelib that makes GameJolt account support",
   "version": "0.1.0",
+  "classPath": "GHX/source/",
   "releasenote": "proper release",
   "contributors": ["MrClogsworthYT", "brosomethingwrongwithyothing"],
   "dependencies": {}
