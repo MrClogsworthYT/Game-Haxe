@@ -1,11 +1,11 @@
 {
-  "name": "GameHaxe",
+  "name": "GX",
   "url" : "https://github.com/MrClogsworthYT/Game-haxe",
   "license": "MIT",
   "tags": ["account","game","data","Gamejolt", "api"],
-  "description": "an epic haxelib for haxe projects that makes account support",
-  "version": "0.0.3",
-  "releasenote": "remove fnf lol",
-  "contributors": ["MrClogsworthYT"],
+  "description": "a haxelib that makes GameJolt account support",
+  "version": "0.1.0",
+  "releasenote": "proper release",
+  "contributors": ["MrClogsworthYT", "brosomethingwrongwithyothing"],
   "dependencies": {}
 }
